@@ -1,10 +1,10 @@
+/* 
+    COMMON CSS
+*/
 body {
     background-image: url("images/united-squares-negative.png");
-    margin: 0;;
-}
-#profilePic {
-    height: 100px;
-    width: 100px;
+    margin: 0;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 header{
     margin-bottom: 30px;
@@ -19,25 +19,29 @@ header{
 .mainContentBody {
     max-width: 960px;
     margin: auto;
-    background-color: white;
+    background-color: #ffffff;
     margin-bottom: 80px;
     color: #777777;
+    border: 2px solid #dddddd;
+
 }
 .mainBodyAbout {
     padding: 30px;
 }
 h1 {
     background-color: #4aaaa5;
-    color: white;
+    color: #ffffff;
     padding-bottom: 22px;
     padding-top: 20px;
     width: 200px;
     text-align: center;
     float: left;
     display: inline;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 h2 {
     color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 .headerContent ul {
     float: right;
@@ -51,15 +55,11 @@ h2 {
 
 .headerContent li a {
     text-decoration: none;
-    color: gray;
+    color: #777777;
     margin-left: 20px;
 }
 .mainBodyAbout {
     display: inline-block;
-}
-img {
-    padding: 0 15px;
-    float: left;
 }
 footer {
     margin-top: 30px;
@@ -78,11 +78,28 @@ footer p {
     padding-top: 18px;
     color: #ffffff;
     font-size: 10px;
+    border-top: 8px solid #4aaaa5;
 }
-.topFooterBar {
-    background-color: #4aaaa5;
-    height: 10px
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/*
+    index.html 
+    ABOUT PAGE CSS 
+*/
+#profilePic {
+    height: 100px;
+    width: 100px;
+    padding: 0 15px;
+    float: left;
 }
+
+/*
+    contact.html 
+    CONTACT PAGE CSS 
+*/
 .contactPage form {
     width: 900px;
 }
@@ -97,4 +114,38 @@ footer p {
     padding: 10px;
     background-color: #4aaaa5;
     color: #ffffff;
+}
+/*
+    portfolio.html 
+    PORTFOLIO PAGE CSS 
+*/
+
+.pictureDiv {
+    width: 150px;
+    height: 150px;
+    background-image: url("images/profilePic3.jpg");
+    background-size: 150px 150px;
+}
+.picTitleDiv {
+    width: 150px;
+    background: #4aaaa5;
+    height: 38px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 12px;
+    margin-top: -60px;
+}
+
+.picWrapper {
+    margin-left: 20px;
+    margin-top: 40px;
+    float: left;
+}
+
+.portfolioMainContent {
+    width: 400px;
+}
+
+.wrapperDiv {
+    width: 890px;
 }
