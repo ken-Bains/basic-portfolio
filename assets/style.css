@@ -38,6 +38,7 @@ h1 {
     float: left;
     display: inline;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-top: 42px;
 }
 h2 {
     color: #4aaaa5;
