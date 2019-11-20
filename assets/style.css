@@ -126,12 +126,15 @@ footer p {
     background-image: url("images/profilePic3.jpg");
     background-size: 150px 150px;
 }
+.picTitleDiv a {
+    text-decoration: none;
+    color: #ffffff;
+}
 .picTitleDiv {
     width: 150px;
     background: #4aaaa5;
     height: 38px;
     text-align: center;
-    color: #ffffff;
     padding-top: 12px;
     margin-top: -60px;
 }
