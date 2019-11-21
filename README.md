@@ -7,7 +7,7 @@ This site showcases my work. It has information about me, my contact information
 https://ken-bains.github.io/basic-portfolio/
 
 ## Site Picture
-![Site](chrome_vGiqS64eLn.png)
+![Site](assets/images/portfolioSnapshot.png)
 
 
 ## Technologies Used
