@@ -139,6 +139,22 @@ footer p {
     height: 150px;
     background-image: url("images/profilePic3.jpg");
     background-size: 150px 150px;
+    border: 1px solid #cccccc
+}
+#hangmanDiv {
+    background-image: url("images/hangman.png");
+}
+#rpgDiv {
+    background-image: url("images/rpg.jpeg");
+}
+#triviaDiv {
+    background-image: url("images/trivia.jpg");
+}
+#rutgersDiv {
+    background-image: url("images/rutgers.png");
+}
+#rockDiv {
+    background-image: url("images/rock.jpeg");
 }
 .picTitleDiv a {
     text-decoration: none;
