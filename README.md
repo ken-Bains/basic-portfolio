@@ -3,8 +3,12 @@
 ## Summary 
 This site showcases my work. It has information about me, my contact information, and a page with links to my projects. 
 
+## Link to site
+https://ken-bains.github.io/basic-portfolio/
+
 ## Site Picture
 ![Site](chrome_vGiqS64eLn.png)
+
 
 ## Technologies Used
 - HTML - used to create elements on the DOM
